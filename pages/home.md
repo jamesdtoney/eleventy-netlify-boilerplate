@@ -7,14 +7,27 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-# Welcome
+An h1 header
+============
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
+Paragraphs are separated by a blank line.
 
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
+2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
+look like:
 
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on GitHub.
+  * this one
+  * that one
+  * the other one
 
-Or click the button below to deploy your own copy of this project to Netlify.
+Note that --- not considering the asterisk --- the actual text
+content starts at 4-columns in.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+> Block quotes are
+> written like so.
+>
+> They can span multiple paragraphs,
+> if you like.
+
+Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
+in chapters 12--14"). Three dots ... will be converted to an ellipsis.
+Unicode is supported. ☺
